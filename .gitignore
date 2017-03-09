@@ -38,3 +38,6 @@ jspm_packages
 
 # ignore Map files
 *.js.map
+
+# ignore build directory
+.tmp
