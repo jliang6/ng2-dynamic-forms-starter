@@ -73,15 +73,15 @@ export class BootstrapExampleComponent implements OnInit {
         );
     }
 
-    onBlur($event) {
+    onBlur($event: any) {
         console.log(`BLUR event on ${$event.model.id}: `, $event);
     }
 
-    onChange($event) {
+    onChange($event: any) {
         console.log(`CHANGE event on ${$event.model.id}: `, $event);
     }
 
-    onFocus($event) {
+    onFocus($event: any) {
         console.log(`FOCUS event on ${$event.model.id}: `, $event);
     }
 }
