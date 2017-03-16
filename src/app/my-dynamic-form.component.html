@@ -1,6 +1,28 @@
-<form [formGroup]="formGroup">
+<div class="row">
+    <div class="col-xs-12">
+        <hr />
+    </div>
+</div>
 
-    <dynamic-form-bootstrap-control *ngFor="let controlModel of formModel" 
-                                    [controlGroup]="formGroup"
-                                    [model]="controlModel"></dynamic-form-bootstrap-control>
-</form>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Begin of dynamic-form component</h3>
+    </div>
+    <div class="col-xs-12">
+        <form [formGroup]="formGroup">
+            <dynamic-form-bootstrap-control *ngFor="let controlModel of formModel" 
+                                            [controlGroup]="formGroup"
+                                            [model]="controlModel">
+            </dynamic-form-bootstrap-control>
+        </form>
+    </div>
+    <div class="col-xs-12">
+        <h3>End of dynamic-form component</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <hr />
+    </div>
+</div>
